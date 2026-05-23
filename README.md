@@ -25,7 +25,7 @@ SoT is trained and evaluated on rendered assembly traces. This repository focuse
 
 ## BAGEL Training for Shape-of-Thought
 
-This repository is adapted from the [BAGEL](https://github.com/ByteDance-Seed/Bagel) training codebase, following the same interleaved multimodal training style used by [Bagel-Zebra-CoT](https://github.com/multimodal-reasoning-lab/Bagel-Zebra-CoT). We customize the data loader, training configuration, and inference script for SoT-26K rendered assembly traces.
+This repository is adapted from the [BAGEL](https://github.com/ByteDance-Seed/Bagel) training codebase. We customize the data loader, training configuration, and inference script for SoT-26K rendered assembly traces.
 
 ## Method Overview
 
