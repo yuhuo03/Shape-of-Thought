@@ -23,6 +23,10 @@ Shape-of-Thought (SoT) is a visual Chain-of-Thought framework for process-superv
 
 SoT is trained and evaluated on rendered assembly traces. This repository focuses on rendered-domain structural control and process supervision rather than native editable 3D generation.
 
+## BAGEL Training for Shape-of-Thought
+
+This repository is adapted from the [BAGEL](https://github.com/ByteDance-Seed/Bagel) training codebase, following the same interleaved multimodal training style used by [Bagel-Zebra-CoT](https://github.com/multimodal-reasoning-lab/Bagel-Zebra-CoT). We customize the data loader, training configuration, and inference script for SoT-26K rendered assembly traces.
+
 ## Method Overview
 
 SoT turns one-shot object generation into a visible assembly trace: each textual construction decision is immediately grounded by a rendered intermediate state.
