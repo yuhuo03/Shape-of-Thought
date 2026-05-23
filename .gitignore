@@ -1,0 +1,16 @@
+wandb
+__pycache__
+.vscode
+notebooks
+results
+*.ipynb_checkpoints
+eval_results
+tests
+.DS_Store
+gradio.sh
+models
+bagel_example
+Zebra-CoT
+model_bf16.safetensors
+zebra-cot.tar.gz
+reasoning_output*

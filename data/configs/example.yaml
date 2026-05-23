@@ -1,0 +1,17 @@
+sot:
+  dataset_names:
+  - sot_dataset
+  jsonl_path_list: ["/path/to/SoT/SoT.jsonl"]
+  data_dir_list: ["/path/to/SoT"]
+  num_used_data: None  # Use all data
+  image_prefix_dir: "/path/to/SoT"
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 512
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 512
+    min_image_size: 512
+  weight: 1.0
+  is_mandatory: true
