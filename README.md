@@ -28,10 +28,6 @@ SoT is trained and evaluated on rendered assembly traces. This repository focuse
 SoT turns one-shot object generation into a visible assembly trace: each textual construction decision is immediately grounded by a rendered intermediate state.
 
 <p align="center">
-  <img src="assets/paradigm_comparison.png" alt="Comparison of direct generation, text CoT, and Shape-of-Thought" width="95%">
-</p>
-
-<p align="center">
   <img src="assets/sot_framework.png" alt="Shape-of-Thought framework" width="95%">
 </p>
 
@@ -79,77 +75,6 @@ data/interleave_datasets/sot_dataset.py
 
 <p align="center">
   <img src="assets/progressive_trace_gallery.png" alt="Progressive shape assembly traces" width="95%">
-</p>
-
-<details open>
-<summary><strong>Additional category galleries</strong></summary>
-
-<p align="center">
-  <img src="assets/category_gallery/dining_tableware.png" alt="Dining and tableware qualitative examples" width="95%">
-</p>
-
-<p align="center">
-  <img src="assets/category_gallery/kitchenware_appliances.png" alt="Kitchenware and appliance qualitative examples" width="95%">
-</p>
-
-<p align="center">
-  <img src="assets/category_gallery/lifestyle_accessories.png" alt="Lifestyle accessory qualitative examples" width="95%">
-</p>
-
-<p align="center">
-  <img src="assets/category_gallery/electronics_office.png" alt="Electronics and office qualitative examples" width="95%">
-</p>
-
-<p align="center">
-  <img src="assets/category_gallery/furniture_infrastructure.png" alt="Furniture and infrastructure qualitative examples" width="95%">
-</p>
-
-</details>
-
-## Multi-View Diagnostics
-
-The main SoT setting uses a canonical front view. We also provide fixed-view diagnostics to inspect how rendered assembly traces behave under additional camera views.
-
-<p align="center">
-  <img src="assets/multi_view_case1.jpg" alt="Multi-view trace example" width="95%">
-</p>
-
-<p align="center">
-  <img src="assets/multi_view_case2.jpg" alt="Additional multi-view trace example" width="95%">
-</p>
-
-<details>
-<summary><strong>Single-view failure diagnostics</strong></summary>
-
-<p align="center">
-  <img src="assets/failure_cases/missing_display_base.png" alt="Failure case with missing display base" width="75%">
-</p>
-
-<p align="center">
-  <img src="assets/failure_cases/occlusion_wrong_shape.png" alt="Failure case with occlusion and wrong shape" width="75%">
-</p>
-
-</details>
-
-<details>
-<summary><strong>Multi-view failure case</strong></summary>
-
-<p align="center">
-  <img src="assets/multi_view_error.jpg" alt="Multi-view failure case" width="95%">
-</p>
-
-</details>
-
-## From SoT Renders to 3D Meshes
-
-SoT outputs rendered assembly traces. As a qualitative downstream demonstration, selected final renderings can be passed to an off-the-shelf image-to-3D lifting pipeline.
-
-<p align="center">
-  <img src="assets/sam3d_single_case.png" alt="Single SoT-to-3D lifting example" width="95%">
-</p>
-
-<p align="center">
-  <img src="assets/sam3d_gallery.png" alt="SoT-to-3D lifting gallery" width="95%">
 </p>
 
 ## Quick Start
